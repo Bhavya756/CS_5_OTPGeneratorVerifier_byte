@@ -1,0 +1,16 @@
+[
+    {
+        "description": "Valid OTP verification",
+        "secret": "31323334353637383930313233343536",
+        "timestamp": 1700000000,
+        "submitted_otp": "812601",
+        "expected_result": "valid"
+    },
+    {
+        "description": "Invalid OTP verification",
+        "secret": "31323334353637383930313233343536",
+        "timestamp": 1700000000,
+        "submitted_otp": "123456",
+        "expected_result": "invalid"
+    }
+]
